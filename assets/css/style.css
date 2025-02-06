@@ -1,0 +1,22 @@
+body::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+@keyframes card-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+
+
+}
+
+
+.card-animation {
+    animation: card-animation;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
